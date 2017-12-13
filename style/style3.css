@@ -70,6 +70,10 @@
   padding-left: 30px;
 }
 
+.clickable:hover {
+  cursor: pointer;
+}
+
 /*OVERLAYS*/
 
 #P1, #A7, #A3b {
@@ -83,6 +87,7 @@
     bottom: 0;
     background-color: rgba(0,0,0,0.8);
     z-index: 3;
+    cursor: alias;
 }
 
 .bigpic {
